@@ -86,3 +86,14 @@ body {
     font-size: 16px;
     justify-content: center;
 }
+
+.iziToast-container .iziToast .iziToast-close::before {
+    color: #FFFFFF;
+    /* Установка белого цвета */
+}
+
+
+
+.flatpickr-day.today {
+    border-color: #959ea9;
+}

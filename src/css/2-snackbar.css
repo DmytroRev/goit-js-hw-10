@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .form {
+    display: block;
+    flex-direction: column;
+} */
+
+.input-value {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.label-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text {
+    left: 28px;
+}
+
+.fieldset {
+display: flex;
+justify-content: center;
+    width: 360px;
+    height: 64px;
+    border-radius: 4px;
+padding: 0;
+    gap: 48px;
+}
+
+.checkbox {
+display: flex;
+height: 32px;
+align-items: center;
+}
+
+.button {
+    width: 360px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4E75FF;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+}
+

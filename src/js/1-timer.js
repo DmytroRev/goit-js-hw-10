@@ -86,8 +86,10 @@ function validateSelectedDate() {
   if (!userSelectedDate) return;
   const currentDate = new Date();
     if (userSelectedDate <= currentDate) {
-      iziToast.show({
-    message: 'Please choose a date in the future'
+      iziToast.error({
+        backgroundColor: "red",
+        position: 'topRight',
+    message: '<span style="color: #FFFFFF;">Please choose a date in the future</span>'
 });
     startButton.disabled = true;
   } else {
